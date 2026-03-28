@@ -1,0 +1,78 @@
+
+
+RUE (Recursive Understanding Engine)
+
+1. Understand the Core Flow
+
+User Question → AI Answer → Extract Concepts → Click → Explain → Repeat
+
+2. Break the Project into 5 Modules
+
+1. Question → Answer Engine
+Input box (user question)
+Generate answer using LLM (OpenAI / API)
+
+2. Concept Identification
+
+This is the heart of your project
+we must prepare:
+
+Logic to extract important words only
+NOT random words like “is”, “the”
+
+3. Interactive UI
+Highlight important words
+When user clicks → show explanation
+
+4. Recursive Engine
+When explanation comes → again extract concepts
+Allow infinite depth learning
+
+5. Clean UI / UX
+Simple interface
+
+
+Tech Stack
+
+Backend:
+Flask (API)
+OpenAI API (for answers + explanations)
+
+Frontend:
+HTML + CSS + JS (simple)
+OR React (if you want advanced UI)
+
+problem statement 
+Most AI tools give answers, but users don’t actually understand them. Our system ensures true understanding by breaking concepts step-by-step
+
+solution
+We built a Recursive Understanding Engine that identifies key concepts in answers and allows users to explore them interactively until full clarity
+
+What is unique about your system?
+“Concept-level understanding”
+“Multi-layer learning”
+“Guided thinking”
+
+How does your system work
+User asks question
+System generates answer
+Extracts important concepts
+User clicks → gets simpler explanation
+Process repeats
+
+How do you identify important concepts
+We focus on extracting meaningful conceptual terms using NLP/AI instead of random words. We prioritize terms that are important for understanding and potentially confusing.”
+
+What happens if user doesn’t understand?
+The system recursively simplifies explanations until the user reaches clarity.
+
+What technologies are you using
+Flask (backend)
+OpenAI API (AI responses)
+HTML/CSS/JS (frontend)
+
+future scope?
+Personalized learning levels
+Integration with education platforms
+Voice-based learning assistant
+
